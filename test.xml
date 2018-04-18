@@ -1,5 +1,0 @@
-<!--?xml version="1.0" ?-->
-<!DOCTYPE replace [<!ENTITY ent SYSTEM "index.php"> ]>
-
-<description>John</description>
-<author>&ent;</author>
